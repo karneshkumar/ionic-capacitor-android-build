@@ -1,0 +1,7 @@
+{
+  "name": "zc-partner",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
