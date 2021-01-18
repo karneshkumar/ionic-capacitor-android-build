@@ -1,0 +1,22 @@
+ion-input{
+    display:inline-block;
+    width:45px;
+    height:45px;
+    margin:10px;
+    border-radius: 50%;
+    --background:#777;
+    --padding-start:7px;
+    }
+    .otp-wrapper {
+        h3 {
+            text-align: center;
+            margin-bottom: 0px;
+        }
+        p {
+            text-align: center;
+            font-size: 12px;
+            margin: 0px;
+            color: #d7d7d7;
+        }
+        
+    }

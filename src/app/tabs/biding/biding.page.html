@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>biding</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card class="card-info" *ngFor="let item of bidings.Elements">
+    <ion-card-content>
+      <ion-row>
+        <ion-col class="no-padding customer-info">
+          <span class="booking-id">{{item.BookingId}}</span>
+          <ion-label>{{item.FirstName}} {{item.LastName}}</ion-label>
+          <ion-icon name="hand-right-outline"></ion-icon>
+        </ion-col>
+      </ion-row>
+      <ion-row class="detail">
+        <ion-col class="no-padding phone">
+          +91 {{item.Phone}} <ion-icon name="call-outline"></ion-icon>
+        </ion-col>
+      </ion-row>
+      <ion-row class="detail" style="margin-top: 10px;">
+        <ion-col class="no-padding trip-info" size="8">
+          {{item.From}} - {{item.To}}
+        </ion-col>
+        <ion-col class="no-padding model">
+          {{item.CarName}}
+        </ion-col>
+      </ion-row>
+      <ion-row class="detail">
+        <ion-col size="8" class="no-padding booking-date">
+          {{item.PickupDate | date}}
+        </ion-col>
+        <ion-col class="no-padding amount">
+          {{item.TotalPayment}}
+        </ion-col>
+      </ion-row>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

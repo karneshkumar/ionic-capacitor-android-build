@@ -1,0 +1,21 @@
+.home-wrapper {
+    .user-name {
+        font-size: 14px;
+    }
+    .card-info {
+        background-color: #5e35b1;
+        height: 120px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        ion-label {
+            color: white;
+            font-size: 8vw;;
+        }
+        ion-row {
+            margin-bottom: 40px;
+        }
+        ion-card-content {
+            color: white;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+.card-info {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    .booking-id {
+        font-size: 3.2vw;
+        display: block;
+    }
+    ion-label {
+        color: white;
+        font-size: 5.2vw;
+        font-weight: bold;
+    }
+    ion-card-content {
+        color: white;
+        padding: 5px;
+        .detail {
+            font-size: 4.2vw;
+        }
+        .customer-info {
+            ion-icon {
+                font-size: 9vw;
+                position: absolute;
+                right: 0;
+                top: 3px;
+            }
+        }
+        .customer-info, .phone, .trip-info, .booking-date {
+            padding-left: 5px;
+        }
+        .amount, .model {
+            text-align: right;
+            padding-right: 5px;
+        }
+    }
+}
